@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+.diacorp {
+    width: 100%;
+    background-color: #AF9E9E;
+    height: 3vh;
+    border-bottom: 1px solid black;
+}
+
+#minilogo {
+    position: absolute;
+    font-weight: 500;
+    font-size: 100%;
+    justify-content: left;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 1%;
+    margin-top: 0.2%;
+}
+
+.rac {
+    justify-content: right;
+    text-align: right;
+    margin-right: 0.5%;
+}
+
+.rac a {
+    text-decoration: underline;
+    color: black;
+    margin-left: 1.2%;
+    padding-bottom: 10%;
+    margin-top: 1.2%;
+}
+
+.alass {
+    width: 100%;
+    height: 4vh;
+    background-color: #AF9E9E;
+}
+
+#logo {
+    font-weight: 100;
+    font-size: 175%;
+    justify-content: left;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 1%;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+}
+
+.navbar {
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.2%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 145%;
+    margin-left: 2%;
+}
+
+.produit {
+    background-color: black;
+    width: 100%;
+    height: 95vh;
+}
+
+.produit h2 {
+    color: white;
+    font-size: 500%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+.image-grid {
+    display: flex;
+    margin-left: 5%;
+  }
+
+  @media screen and (max-width: 947px) and (min-width: 618px){
+    .image-grid img {
+        width: 3%;
+        min-width: 3%;
+        max-width: 2%;
+        height: 2vh;
+        max-height: 2vh;
+        min-height: 1vh;
+        justify-content: space-around;
+        margin-left: 13%;
+        margin-bottom: 15%;
+        margin-top: 5%;
+      }
+
+      #puce {
+        width: 10%;
+        max-width: 7%;
+        min-width: 5%;
+        color: white;
+        height: 3.5vh;
+        margin-top: 5%;
+        display: none;
+    }
+
+    .image p {
+        font-size: 0.5rem;
+    }
+
+    .image p br {
+        display: none;
+    }
+   
+  }
+
+@media screen and (max-width: 618px){
+    .produit h2 {
+        color: white;
+        font-size: 350%;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .image-grid {
+        display: grid;
+        justify-content: space-between;
+        margin-left: 5%;
+      }
+
+      .image img {
+        width: 100%;
+        min-width: 60%;
+        max-width: 35%;
+        height: 45vh;
+        min-width: 39vh;
+        max-height: 30vh;
+        border-radius: 35px;
+    }
+
+    #puce {
+        width: 7%;
+        max-width: 7%;
+        min-width: 7%;
+        color: white;
+        height: 3vh;
+        margin-top: 5%;
+    }
+
+    .produit hr {
+        display: none;    
+    }
+
+    #aap {
+        width: auto;
+        padding: 2%;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 5%;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+  
+.image {
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+.image img {
+    width: 100%;
+    height: 25vh;
+    border-radius: 15px;
+}
+
+.image h2 {
+    color: white;
+    font-size: 100%;
+    margin-bottom: 3%;
+}
+
+.image p {
+    color: white;
+    font-size: 1rem;
+    padding-top: 9%;
+}
+
+#puce {
+    width: 13%;
+    color: white;
+    height: 5vh;
+    margin-top: 10%;
+}
+
+#aap {
+    margin-top: 16%;
+    width: auto;
+    padding: 2%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produit hr {
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid rgba(255, 255, 255, 0.127);
+    margin-top: 7%;
+}
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    margin-top: 15%;
+    height: 9vh;
+}
+
+.reseaux img {
+    display: flexbox;
+    width: 5%;
+    margin-left: 4%;
+    justify-content: space-between;
+    float: left;
+}
+
+.email {
+    font-size: 1.3rem;
+    color: black;
+    margin-left: 10%;
+}

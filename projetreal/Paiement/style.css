@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+  }
+
+  .contenant {
+    background-color: #AF9E9E;
+  }
+
+  header {
+    background-color: black;
+    color: #fff;
+    padding: 4%;
+    height: 22vh;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header a {
+    color: rgba(255, 255, 255, 0.507);
+  }
+
+  main section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  main section h2 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+
+  main section h3 {
+    font-size: 2.1rem;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 3.7%;
+  }
+
+  .contenat {
+    width: 60%;
+    background-color: #af9e9e40;
+    height: 15vh;
+    border-radius: 5px;
+  }
+
+  .contenat h2 {
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+
+  .contenat a {
+    padding-left: 2%;
+  }
+  
+  main section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  main section table th,
+  main section table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  main section table th {
+    text-align: left;
+  }
+  
+  main section table tfoot tr td {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  main section ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  main section ul li {
+    margin-bottom: 10px;
+  }
+  
+  main section label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  main section select {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 13%;
+    padding: 4px;
+    font-size: 0.9rem;
+    border: 1px solid #af9e9e40;
+    background-color: rgba(0, 0, 0, 0.257);
+    border-radius: 5px;
+    color: white;
+    
+  }
+
+  main section #type2 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 13%;
+    padding: 4px;
+    font-size: 0.9rem;
+    border: 1px solid #af9e9e40;
+    background-color: rgba(0, 0, 0, 0.257);
+    border-radius: 5px;
+    color: white;
+    float: left;
+  }
+  
+  main section input[type="text"],
+  main section input[type="email"],
+  main section input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  main section button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 13%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 26%;
+  }
+
+  /*--------------- section 2 ----------------*/
+  main .section2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  main .section2 h2 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+
+  main .section2 h3 {
+    font-size: 2.1rem;
+    font-weight: 300;
+    margin-top: 4%;
+    margin-bottom: 3.5%;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+  
+
+  main .section2 table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  main .section2 table th,
+  main .section2 table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  main .section2 table th {
+    text-align: left;
+  }
+  
+  main .section2 table tfoot tr td {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  main .section2 ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  main .section2 ul li {
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 25%;
+    margin-bottom: 1%;
+  }
+
+  .optionpaie {
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  main .section2 label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  main .section2 select {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 13%;
+    padding: 4px;
+    font-size: 0.9rem;
+    border: 1px solid #af9e9e40;
+    background-color: rgba(0, 0, 0, 0.257);
+    border-radius: 5px;
+    color: white;
+    
+  }
+
+  main .section2 #type2 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 13%;
+    padding: 4px;
+    font-size: 0.9rem;
+    border: 1px solid #af9e9e40;
+    background-color: rgba(0, 0, 0, 0.257);
+    border-radius: 5px;
+    color: white;
+    float: left;
+  }
+  
+  main .section2 input[type="text"],
+  main .section2 input[type="email"],
+  main .section2 input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  #button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 13%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 36%;
+    margin-bottom: 2%;
+  }
+
+  #h31 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 3.5%;
+    margin-bottom: 2.7%;
+  }
+  
+  hr {
+    border: solid #AF9E9E;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: #333;
+    margin-top: 15%;
+    height: 10vh;
+    clear: both;
+}
+
+.reseaux img {
+    display: flexbox;
+    width: 5%;
+    margin-left: 4%;
+    justify-content: space-between;
+    float: left;
+}
+
+.email {
+    font-size: 1.3rem;
+    color: black;
+    margin-left: 10%;
+}
+
+#p2 {
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  background-color: #333;
+  margin-top: 10%;
+  height: 10vh;
+}
+
+.reseaux img {
+  display: flexbox;
+  width: 5%;
+  margin-left: 4%;
+  justify-content: space-between;
+  float: left;
+}
+
+.email {
+  font-size: 1.3rem;
+  color: black;
+  margin-left: 10%;
+}
